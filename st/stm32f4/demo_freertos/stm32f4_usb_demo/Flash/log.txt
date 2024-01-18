@@ -1,0 +1,59 @@
+Application log started
+ - J-Flash V7.92c (J-Flash compiled Aug 30 2023 14:59:03)
+ - JLinkARM.dll V7.92c (DLL compiled Aug 30 2023 14:58:23)
+Optional command line parameters found
+ - [1]: -jflashlog
+ - [2]: ./Flash/log.txt
+ - [3]: -openprj
+ - [4]: ./Flash/STM32F407ZG.jflash
+ - [5]: -open
+ - [6]: F:\OwnProject\CubeMX\mini_boot\stm32f4_usb_demo\cmake-release/usb_demo.hex
+ - [7]: -auto
+ - [8]: -exit
+Reading flash device list [D:\ProgramFiles\SEGGER\JLink_V792c\ETC/JFlash/Flash.csv] ...
+ - List of flash devices read successfully (451 Devices)
+Reading MCU device list ...
+ - List of MCU devices read successfully (10214 Devices)
+Opening project file [.\Flash\STM32F407ZG.jflash] ...
+ - Project opened successfully
+Opening data file [F:\OwnProject\CubeMX\mini_boot\stm32f4_usb_demo\cmake-release\usb_demo.hex] ...
+ - Data file opened successfully (219156 bytes, 1 range, CRC of data = 0x168BB145, CRC of file = 0x6589DDBD)
+Auto programming target (219156 bytes, 1 range) ...
+ - Connecting ...
+  - Connected successfully
+ - Checking if selected data fits into selected flash sectors.
+ - Start of preparing flash programming
+ - End of preparing flash programming
+ - Start of determining dirty areas in flash cache
+ - End of determining dirty areas
+ - CPU is running at 110000 kHz.
+ - Start of erasing sectors
+ - Blank checking 0x08000000 - 0x0800FFFF
+ - Erasing range 0x08000000 - 0x0800FFFF (  4 Sectors, 64 KB)
+ - Blank checking 0x08010000 - 0x0801FFFF
+ - Erasing range 0x08010000 - 0x0801FFFF (  1 Sector, 64 KB)
+ - Blank checking 0x08020000 - 0x0803FFFF
+ - Erasing range 0x08020000 - 0x0803FFFF (  1 Sector, 128 KB)
+ - End of erasing sectors
+ - Start of flash programming
+ - Programming range 0x08000000 - 0x08007FFF (  2 Sectors, 32 KB)
+ - Programming range 0x08008000 - 0x0800FFFF (  2 Sectors, 32 KB)
+ - Programming range 0x08010000 - 0x0801FFFF (  1 Sector, 64 KB)
+ - Programming range 0x08020000 - 0x0803FFFF (  1 Sector, 128 KB)
+ - End of flash programming
+ - Flash programming performed for 3 ranges (262144 bytes)
+ - 0x8000000 - 0x800FFFF (  4 Sectors, 64 KB)
+ - 0x8010000 - 0x801FFFF (  1 Sector, 64 KB)
+ - 0x8020000 - 0x803FFFF (  1 Sector, 128 KB)
+ - Start of verifying flash
+ - End of verifying flash
+ - Start of restoring
+ - End of restoring
+ - Executing exit sequence ...
+  - De-initialized successfully
+ - Target erased, programmed and verified successfully - Completed after 5.943 sec
+ - Starting application ...
+  - Target application started
+J-Flash V7.92c: Target erased, programmed and verified successfully - Completed after 5.943 sec
+Close project
+ - Project closed

@@ -1,0 +1,12 @@
+//
+// Created by zjcszn on 2023/8/3.
+//
+
+#ifndef USB_DEMO_USER_LIBRARY_TINYUSB_TUSB_CUSTOM_HID_H_
+#define USB_DEMO_USER_LIBRARY_TINYUSB_TUSB_CUSTOM_HID_H_
+
+#define TINYUSB_USBD_DEMO   0
+
+void tinyusb_init(void);
+
+#endif //USB_DEMO_USER_LIBRARY_TINYUSB_TUSB_CUSTOM_HID_H_
