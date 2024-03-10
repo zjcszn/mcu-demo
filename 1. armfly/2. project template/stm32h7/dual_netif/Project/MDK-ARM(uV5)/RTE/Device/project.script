@@ -1,0 +1,4 @@
+load STM32H743XIHx 
+project name STCubeGenerated 
+project toolchain "MDK-ARM V5" 
+project path "E:\001.Board\STM32-V7 RES\TCPNET V7.X\V7\1 .test\Project\MDK-ARM(uV5)\RTE\Device\STM32H743XIHx\" 
